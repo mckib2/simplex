@@ -57,13 +57,10 @@ def rsm(c, A, b, bfs, eps1=10e-5):
     # V_indices : vector of columns in A not in solution basis
 
     _m, n = A.shape
-    print(A.shape)
     B_indices = np.argwhere(bfs).flatten()
     # V_indices = np.argwhere(
     #     np.ones(n) - np.abs(np.sign(bfs))).flatten()
     V_indices = np.argwhere(np.abs(bfs) == 0).flatten()
-    print(B_indices.shape)
-    print(V_indices.shape)
 
     # rsm_nnz = zeros(5000,2);
 
