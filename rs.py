@@ -42,8 +42,8 @@ def rsm(c, A, b, bfs, eps1=10e-5):
     .. [1] Richard B. Darst, "Introduction to Linear Programming,
            Applications and Extenstions", page 101
     .. [2] https://web.archive.org/web/20120501220155/http://www.cise.ufl.edu/research/sparse/Morgan/appendix.htm
-    .. [3] Morgan, Steven S. A comparison of simplex method algorithms.
-           Diss. University of Florida, 1997.
+    .. [3] Morgan, Steven S. A comparison of simplex method
+           algorithms. Diss. University of Florida, 1997.
     '''
 
     A = np.array(A)
